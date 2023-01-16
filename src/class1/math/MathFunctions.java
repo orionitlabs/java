@@ -1,4 +1,4 @@
-package math;
+package class1.math;
 
 public class MathFunctions {
 

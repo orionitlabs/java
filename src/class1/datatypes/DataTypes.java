@@ -1,4 +1,4 @@
-package datatypes;
+package class1.datatypes;
 
 public class DataTypes {
     public static void main(String[] args) {

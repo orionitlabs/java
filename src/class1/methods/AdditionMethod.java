@@ -1,4 +1,4 @@
-package methods;
+package class1.methods;
 
 public class AdditionMethod {
 
