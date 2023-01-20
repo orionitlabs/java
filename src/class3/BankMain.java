@@ -32,10 +32,16 @@ public class BankMain {
 //        System.out.println(sai.getBalance());
 
         BankTransactions bankTransactions = new BankTransactions();
-        BankUser newUser = bankTransactions.createNewUser("vivek","yeng", "vivek@gmail.com", 500.00);
+        BankUser newUser = bankTransactions.createNewUser("pavan","resu", "pavanresu.eorionitlabs@gmail.com", 500.00);
         System.out.println(newUser.getBalance());
+        newUser =bankTransactions.changeFirstName(newUser, "pavan");
+        System.out.println(newUser.getFirstName());
+        newUser =bankTransactions.changeEmail(newUser,"pavanresu.eorionitlabs@gmail.com");
+        System.out.println(newUser.getEmail());
+         newUser=bankTransactions.changeLastName(newUser,"resu");
+         System.out.println(newUser.getLastName());
 
-        BankUser otherUser = bankTransactions.createNewUser("other", "other","other", 100.00);
+       // BankUser otherUser = bankTransactions.createNewUser("other", "other","other", 100.00);
 
 
     }
