@@ -17,3 +17,11 @@
 # 2. git status (It will show file and path to files that are changed)
 # 3. git commit -m "commit message"  (It will commit your changes and -m will hold the message of commit)
 # 4: git push
+
+# 11: Coding standards and naming convention
+# 1. should be a single name and should be lower-case
+# 2. when declaring a class always first letter should be capital, then rest should follow camel casing 
+# 3. Variables should always start with lowercase and follow camel case for the rest.
+# 4. Variable name should away represent what the variable is representing. 
+# 5. Method name should always start with smaller case and should be followed by camel casing.
+# 6. Method name should describe what that method is performing.
