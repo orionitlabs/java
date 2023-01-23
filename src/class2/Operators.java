@@ -40,7 +40,7 @@ public class Operators {
 
         if(firstName.toUpperCase().equals("Krishna".toUpperCase())){
             System.out.println(firstName.toUpperCase());
-            System.out.println("This is krishna upper case");
+            gitSystem.out.println("This is krishna upper case");
         }
 
         if(firstName.equalsIgnoreCase("pidikiti")){
