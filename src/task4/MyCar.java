@@ -1,7 +1,6 @@
 package task4;
 
-public class
-mycar {
+public class MyCar {
 
     public static void main(String[] args) {
         String engineNumber;

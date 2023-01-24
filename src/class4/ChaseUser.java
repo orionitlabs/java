@@ -1,6 +1,6 @@
 package class4;
 
-public class ChaseUser extends BankUser{
+public class ChaseUser extends BankUser {
 
     private String chaseAccountNumber;
 
