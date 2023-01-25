@@ -34,7 +34,7 @@ public class BankMain {
         BankTransactions bankTransactions = new BankTransactions();
         BankUser newUser = bankTransactions.createNewUser("vivek","yeng", "vivek@gmail.com", 500.00);
         System.out.println(newUser.getBalance());
-        newUser = bankTransactions.changeFirstName(newUser, "usha");
+        newUser = bankTransactions.changeFirstName(newUser, "task5");
         System.out.println(newUser.getFirstName());
         newUser = bankTransactions.changeEmail(newUser, "ushaswinir.eorionitlabs@gmail.com");
         System.out.println(newUser.getEmail());
