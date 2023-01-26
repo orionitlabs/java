@@ -26,4 +26,18 @@ public class BankTransactions {
     public BankUser createNewUser(String firstName, String lastName, String email, double bal){
         return new BankUser(firstName, lastName, email, bal);
     }
+    public BankUser changeFirstName(BankUser bankUser, String firstName){
+        bankUser.setFirstName(firstName);
+        return bankUser;
+    }
+
+
+    public BankUser changeEmail(BankUser newUser, String email) {
+        newUser.setEmail(email);
+        return newUser;
+    }
+        public BankUser changeLastName(BankUser newUser, String lastName) {
+            newUser.setLastName(lastName);
+            return newUser;
+    }
 }
