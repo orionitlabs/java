@@ -45,15 +45,15 @@ public class Employee {
     }
 
     // print All Employee
-    // Sorting Employess based on Names
+    // Sorting Employees based on Names
     // Print Employees having salary more than x
 
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
         Employee employee1 = new Employee("SriHarsha", "Male", 6000);
-        Employee employee2 = new Employee("amrutha", "Female", 5000);
-        Employee employee3 = new Employee("Pavan", "Male", 2500);
-        Employee employee4 = new Employee("Yeswitha", "Female", 10000);
+        Employee employee2 = new Employee("alyson", "Female", 5000);
+        Employee employee3 = new Employee("Parker", "Male", 2500);
+        Employee employee4 = new Employee("Lisa", "Female", 10000);
         employees.add(employee1);
         employees.add(employee2);
         employees.add(employee3);
@@ -77,7 +77,7 @@ public class Employee {
 
 //            sortEmployeesWithNames.sort(Comparator.comparing(Employee::getName));
             sortEmployeesWithNames.sort(Comparator.comparing(o -> o.getName().toLowerCase(Locale.ROOT)));
-//            sortEmployeesByName.sort((o1, o2) -> o1.getName().toLowerCase(Locale.ROOT).compareTo(o2.getName().toLowerCase(Locale.ROOT)));
+//            sortEmployeesWithNames.sort((o1, o2) -> o1.getName().toLowerCase(Locale.ROOT).compareTo(o2.getName().toLowerCase(Locale.ROOT)));
             for(Employee employee : sortEmployeesWithNames)
                 System.out.println(employee.getName()+", "+employee.getGender()+", "+employee.getSalary());
         };
